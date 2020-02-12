@@ -1,0 +1,12 @@
+{
+    "server": {
+        "port": 3300
+    },
+    "logging": {
+        "threshold": "debug"
+    },
+    "domainCors": [
+        "http://localhost:3000"
+    ],
+    "token_password": "colivingsxt"
+}

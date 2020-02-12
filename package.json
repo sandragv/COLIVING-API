@@ -1,0 +1,46 @@
+{
+  "name": "hab_coliving",
+  "version": "1.0.0",
+  "description": "A coliving manager API server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "@sendgrid/mail": "^6.5.0",
+    "axios": "^0.19.2",
+    "axios-cache-adapter": "^2.5.0",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "pg": "^7.17.1",
+    "rand-token": "^0.4.0",
+    "winston": "^3.2.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/hab_coliving/hab_coliving.git"
+  },
+  "author": "Xacobe Cristobo, Maria Trinidad Villar, Sandra Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hab_coliving/hab_coliving/issues"
+  },
+  "homepage": "https://gitlab.com/hab_coliving/hab_coliving#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}

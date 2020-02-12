@@ -1,0 +1,10 @@
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (38,80,4),(22,91,1),(32,64,4),(49,82,2),(8,66,5),(39,83,2),(11,79,4),(18,77,2),(39,85,3),(39,86,1);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (50,72,1),(20,93,4),(34,81,5),(23,62,1),(35,69,3),(40,57,5),(23,70,4),(2,78,3),(27,90,4),(47,71,3);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (2,65,4),(30,67,2),(20,87,3),(9,54,4),(15,51,3),(48,72,3),(22,70,1),(3,52,1),(30,60,4),(9,100,3);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (8,57,5),(47,90,2),(49,72,2),(34,90,3),(8,93,2),(13,91,5),(47,98,2),(41,70,4),(29,80,5),(6,53,1);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (49,96,5),(35,68,5),(17,53,5),(48,96,4),(22,97,2),(14,56,2),(32,67,3),(26,67,4),(14,53,3),(17,75,2);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (20,97,3),(26,85,1),(11,66,4),(25,67,3),(11,79,3),(23,92,1),(18,82,2),(24,64,2),(27,70,4),(11,57,1);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (2,89,3),(3,84,3),(42,76,5),(46,71,2),(17,83,3),(40,56,5),(31,93,2),(39,52,5),(25,63,5),(12,99,4);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (40,64,5),(5,56,1),(41,66,3),(9,55,5),(42,85,4),(20,76,5),(20,66,4),(44,68,1),(50,56,1),(41,90,4);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (21,51,2),(50,82,4),(26,61,4),(11,68,1),(33,68,3),(11,88,4),(45,97,4),(40,75,2),(21,64,1),(34,93,2);
+INSERT INTO "colivers_scoring" (id_coliver_scorer,id_coliver_scored,score) VALUES (38,78,1),(19,57,1),(44,75,3),(14,91,2),(34,54,1),(47,74,5),(13,91,3),(43,90,1),(19,53,3),(20,78,2);
