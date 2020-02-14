@@ -596,8 +596,8 @@ app.post('/host/signup', async (req, res, next) => {
         zipcode: Joi.string(),
         country: Joi.string(),
         city: Joi.string(),
-        photo: Joi.string().allow(),
-        facilities: Joi.string().allow(''),
+        poster: Joi.string().allow(''),
+        facilities: Joi.array().allow(''),
     })
 
     try {      
@@ -608,7 +608,7 @@ app.post('/host/signup', async (req, res, next) => {
         const BCRYPT_SALT_ROUNDS = 12
 
         const hashedPassword = await bcrypt.hash(password, BCRYPT_SALT_ROUNDS);
-        console.log('antes de savehoster');
+        
         const user = await db.saveHostUser(contactName, surname, email, hashedPassword, colivingName, apartments, rooms, roomType, street, zipcode, city, country, facilities, website, facebook, instagram, twitter);
 
         const { id, name, zip_code, apartments_count,
